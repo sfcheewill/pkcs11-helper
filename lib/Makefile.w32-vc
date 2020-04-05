@@ -78,7 +78,7 @@ CC=cl.exe
 RC=rc.exe
 CCPARAMS=/nologo /W3 /O2 /FD /c
 
-CCPARAMS=$(CCPARAMS) /MD
+CCPARAMS=$(CCPARAMS) /MT
 CFLAGS=$(CFLAGS) -DNDEBUG
 
 LINK32=link.exe
